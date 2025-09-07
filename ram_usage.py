@@ -1,4 +1,4 @@
-#!/bin/python
+#!/bin/python3
 import psutil
 
 def bytes_to_gb(bytes_value):
