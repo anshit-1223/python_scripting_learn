@@ -1,6 +1,6 @@
 #!/bin/python3
 import subprocess
-package="php"
+package=input("Enter Package Name :").lower()
 result = subprocess.run(["dpkg","-l",package], capture_output=True, text=True)
 
 if package in result.stdout:
