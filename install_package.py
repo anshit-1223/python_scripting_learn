@@ -8,7 +8,7 @@ def install_package(package_name):
         subprocess.run(["sudo", "apt", "update"], check=True)
         
         # Install the package
-        subprocess.run(["sudo", "apt", "install", "-y", package_name], check=True)
+        subprocess.run(["sudo", "apt", "install", package_name ,"-y" ], check=True)
         
         print(f"\n✅ Successfully installed '{package_name}'.")
     except subprocess.CalledProcessError:
