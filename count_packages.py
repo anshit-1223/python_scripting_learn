@@ -1,3 +1,4 @@
+##Total number of packages installed
 #!/bin/python3
 import subprocess
 import shutil
