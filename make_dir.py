@@ -1,3 +1,4 @@
+#!/bin/python3
 import os
 
 directory_name = input("Enter Directory Name : ")
