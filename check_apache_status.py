@@ -1,3 +1,4 @@
+#!/bin/python3
 import subprocess
 
 def check_apache_status():
