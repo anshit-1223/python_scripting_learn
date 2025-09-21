@@ -10,3 +10,8 @@ b="@"
 c=4
 print(a*b)
 print(a*b*c)
+
+#String with +
+a="!"
+print(a+b)
+print((a+b)*c)
