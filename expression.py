@@ -3,3 +3,10 @@
 a,b=12,6
 print(a/b)
 print(5//2)
+
+##String with *
+a=2
+b="@"
+c=4
+print(a*b)
+print(a*b*c)
