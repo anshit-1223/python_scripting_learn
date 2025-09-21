@@ -1,3 +1,5 @@
+#Variable and Datatype
+#int, string, float, bool, none
 name="Anshit"
 age=24
 wealth=600.00
