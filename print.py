@@ -1,3 +1,4 @@
+# Print statement in Python
 name="Anshit"
 age=24
 print(name,age)
