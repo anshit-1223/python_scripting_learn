@@ -1,3 +1,3 @@
 #Tuple Learn
 t1=(1,"Anshit",'M')
-print(t1)   
+print(t1[0])   
