@@ -4,3 +4,7 @@ print(person)
 print(person["name"])
 print(person["city"])
 
+person["name"]="Abhishek"
+person["city"]="Los Angeles"
+
+print(person)
