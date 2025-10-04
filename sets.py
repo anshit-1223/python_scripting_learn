@@ -4,3 +4,8 @@ print(set1)
 
 #Length of sets
 print(len(set1))
+
+
+#Add Item in Set
+set1.add("Item4")
+print(set1)
