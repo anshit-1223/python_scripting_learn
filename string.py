@@ -13,3 +13,6 @@ print(str[:5])
 
 #Slice to the End
 print(str[1:])
+
+#Negative Indexing
+print(str[-4:0])
