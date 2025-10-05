@@ -25,4 +25,8 @@ print(str.lower())
 
 str = " Hello, World!! "
 print(str)
-print(str.strip())
+str=str.strip()
+print(str)
+
+#Replace
+print(str.replace("H","J"))
