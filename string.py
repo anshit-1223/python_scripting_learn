@@ -20,3 +20,9 @@ print(str[-4:0])
 #Uppercase and lowercase
 print(str.upper())
 print(str.lower())
+
+#Remove Whitespaces
+
+str = " Hello, World!! "
+print(str)
+print(str.strip())
