@@ -30,3 +30,6 @@ print(str)
 
 #Replace
 print(str.replace("H","J"))
+
+#Split String [splits in list]
+print(str.split(","))
