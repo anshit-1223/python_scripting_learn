@@ -18,3 +18,7 @@ elif b > c :
     print("B is greater")
 else :
     print("C is greater")
+
+#pass statement in if. If you have if statement but for no reason you can use pass 
+if 5 > 4 :
+    pass
