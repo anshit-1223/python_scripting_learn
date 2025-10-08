@@ -1,3 +1,5 @@
+#Python script to make directory
+
 #!/bin/python3
 import os
 
