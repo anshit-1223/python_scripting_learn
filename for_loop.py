@@ -6,3 +6,7 @@ for x in fruits:
 #looping through string
 for x in "hello":
     print(x)
+
+ # range function
+for x in range(6):
+    print(x)  
