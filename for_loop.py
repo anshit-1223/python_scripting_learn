@@ -10,3 +10,9 @@ for x in "hello":
  # range function
 for x in range(6):
     print(x)  
+
+#else in for loop
+for x in range(6):
+    print(x)  
+else:
+    print("Loop finished")
