@@ -14,3 +14,9 @@ def arbitrary_function(*fruits):
     print(fruits[1])
 
 arbitrary_function("mango","apple","grapes")
+
+#keyword arguments 
+def keyword_function(java,python,linux):
+    print(linux)
+
+keyword_function(java="James",python="Guido",linux="Linus")
