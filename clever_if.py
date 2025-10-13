@@ -1,4 +1,4 @@
-#Clever If example
+#Clever If example in python
 age = int(input("age : "))
 result = ("No","Yes") [ age >= 18 ]
 print("Result :",result)
