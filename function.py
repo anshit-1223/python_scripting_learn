@@ -20,3 +20,10 @@ def keyword_function(java,python,linux):
     print(linux)
 
 keyword_function(java="James",python="Guido",linux="Linus")
+
+
+#return values in function
+def sum_two(num1,num2):
+    return num1+num2
+
+print("Sum :",sum_two(2,3))
