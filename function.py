@@ -34,3 +34,13 @@ def my_func():
     print(x)
 
 my_func()
+
+
+#function inside function
+def func():
+    x=20
+    def inner_func():
+        print(x)
+    inner_func()
+
+func()
