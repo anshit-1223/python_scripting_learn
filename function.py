@@ -27,3 +27,10 @@ def sum_two(num1,num2):
     return num1+num2
 
 print("Sum :",sum_two(2,3))
+
+#variable scope
+def my_func():
+    x=300
+    print(x)
+
+my_func()
