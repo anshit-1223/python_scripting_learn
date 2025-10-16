@@ -42,5 +42,4 @@ def func():
     def inner_func():
         print(x)
     inner_func()
-
 func()
