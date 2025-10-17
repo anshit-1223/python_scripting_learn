@@ -53,3 +53,14 @@ def global_scope():
 global_scope()
 
 print(var1)
+
+#Naming variables same inside and outside function, python will treat different.
+
+var2="Global Variable"
+def global_scope():
+    var2="Local Variable"
+    print(var2)
+
+global_scope()
+
+print(var2)
