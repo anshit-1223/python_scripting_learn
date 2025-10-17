@@ -43,3 +43,13 @@ def func():
         print(x)
     inner_func()
 func()
+
+
+# Global Scope
+var1="Global Scope"
+def global_scope():
+    print(var1)
+
+global_scope()
+
+print(var1)
