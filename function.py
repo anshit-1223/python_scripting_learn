@@ -84,6 +84,7 @@ def combine(title,*args,**kwargs):
 combine("User Info","Anshit Verma",24,city="Lucknow")
 
 #* and ** operators can also be used to unpack list when calling function
+# Unpacking lists with *
 def sum(a,b,c):
     return a+b+c
 
