@@ -82,3 +82,11 @@ def combine(title,*args,**kwargs):
     print("Keyword Arguments :",kwargs)
 
 combine("User Info","Anshit Verma",24,city="Lucknow")
+
+#* and ** operators can also be used to unpack list when calling function
+def sum(a,b,c):
+    return a+b+c
+
+numbers=[1,2,3]
+result=sum(*numbers)
+print(result)
