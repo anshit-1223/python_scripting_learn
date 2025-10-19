@@ -91,3 +91,10 @@ def sum(a,b,c):
 numbers=[1,2,3]
 result=sum(*numbers)
 print(result)
+
+# Unpacking dictionaries with **
+def full_name(fname,lname):
+    print("Hello, ",fname,lname)
+
+person={"fname":"Anshit","lname":"Verma"}
+full_name(**person)
