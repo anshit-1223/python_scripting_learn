@@ -62,3 +62,12 @@ def global_scope():
 global_scope()
 
 print(var2)
+
+# **kwargs is used to accept any number of arguments in python
+def stu_data(**student):
+    print("Type",type(student))
+    print("Name : ",student["name"])
+    print("Age : ",student["age"])
+    print("All data : ",student)
+
+stu_data(name="Anshit",age=24,city="Berlin")
