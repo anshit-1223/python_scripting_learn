@@ -71,3 +71,14 @@ def stu_data(**student):
     print("All data : ",student)
 
 stu_data(name="Anshit",age=24,city="Berlin")
+
+#Combine *args and **kwargs
+# 1. regular parameters
+# 2. *args
+# 3. **kwargs
+def combine(title,*args,**kwargs):
+    print("Title : ",title)
+    print("Positional Arguments :", args)
+    print("Keyword Arguments :",kwargs)
+
+combine("User Info","Anshit Verma",24,city="Lucknow")
