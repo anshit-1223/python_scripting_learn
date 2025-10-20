@@ -98,3 +98,15 @@ def full_name(fname,lname):
 
 person={"fname":"Anshit","lname":"Verma"}
 full_name(**person)
+
+# nonlocal keyword is used to work with variables inside functions.
+# the nonlocal keyword makes the variable belong to the outer function.
+def myfunc1():
+    x="Jane"
+    def myfunc2():
+        nonlocal x;
+        x="hello"
+    myfunc2()
+    return x;
+
+print(myfunc1( ))
