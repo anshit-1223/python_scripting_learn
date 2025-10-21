@@ -102,11 +102,11 @@ full_name(**person)
 # nonlocal keyword is used to work with variables inside functions.
 # the nonlocal keyword makes the variable belong to the outer function.
 def myfunc1():
-    x="Jane"
+    y="Jane"
     def myfunc2():
-        nonlocal x
+        nonlocal y
         x="hello"
     myfunc2()
-    return x
+    return y
 
 print(myfunc1( ))
