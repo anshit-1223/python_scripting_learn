@@ -105,7 +105,7 @@ def myfunc1():
     y="Jane"
     def myfunc2():
         nonlocal y
-        x="hello"
+        y="hello"
     myfunc2()
     return y
 
