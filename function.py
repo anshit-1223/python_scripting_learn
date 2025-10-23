@@ -110,3 +110,15 @@ def myfunc1():
     return y
 
 print(myfunc1( ))
+
+
+#Decorator in python
+def changecase(func):
+    def myinner():
+        return func().upper()
+    return myinner
+
+@changecase
+def myfunction():
+    return "Decorator Function"
+print(myfunction())
