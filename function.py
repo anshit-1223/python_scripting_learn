@@ -111,7 +111,6 @@ def myfunc1():
 
 print(myfunc1( ))
 
-
 #Decorator in python
 def changecase(func):
     def myinner():
