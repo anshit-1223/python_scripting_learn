@@ -119,5 +119,5 @@ def changecase(func):
 
 @changecase
 def myfunction():
-    return "decorator function"
+    return "decorator function in python"
 print(myfunction())
