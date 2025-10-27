@@ -121,3 +121,7 @@ def changecase(func):
 def myfunction():
     return "decorator function in python"
 print(myfunction())
+
+#python lambda
+x = lambda a : a+10
+print(x(5))
