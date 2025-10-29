@@ -126,6 +126,6 @@ print(myfunction())
 x = lambda a : a+10
 print(x(5))
 
-
+#Example 2
 y = lambda b : b*10
 print(y(5))
