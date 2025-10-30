@@ -122,10 +122,3 @@ def myfunction():
     return "decorator function in python"
 print(myfunction())
 
-#python lambda
-x = lambda a : a+10
-print(x(5))
-
-#Example 2
-y = lambda b : b*10
-print(y(5))
