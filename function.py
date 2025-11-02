@@ -132,3 +132,12 @@ print(x(5))
 #Example 2
 y = lambda b : b*10
 print(y(5))
+
+#Lambda with functions
+def myfunc(n):
+  return lambda z : z * n
+
+mydoubler = myfunc(2)
+
+print(mydoubler(11))
+
