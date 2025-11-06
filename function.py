@@ -137,8 +137,5 @@ print(y(5))
 def myfunc(n):
   return lambda z : z * n
 
-
-
-
 mydoubler = myfunc(2)
 print(mydoubler(11))
