@@ -9,8 +9,3 @@ person["city"]="Los Angeles"
 
 print(person)
 
-
-
-
-
-
