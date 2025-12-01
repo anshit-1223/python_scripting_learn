@@ -15,4 +15,4 @@ for x in range(6):
 for x in range(6):
     print(x)  
 else:
-    print("Loop finished")
+    print("Loop Finished!!")
