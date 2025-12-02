@@ -16,3 +16,8 @@ for x in range(6):
     print(x)  
 else:
     print("Loop Finished!!")
+
+for y in range(10):
+    print(y)  
+else:
+    print("Loop Finished!!")
