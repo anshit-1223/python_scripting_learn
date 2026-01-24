@@ -102,7 +102,7 @@ def git_commit_for_each_day(start_date_str, file_to_change):
 
     while current_date <= today:
         date_str = current_date.strftime("%Y-%m-%d 12:00:00")
-
+        print(date_str)
         env = os.environ.copy()
         env["GIT_AUTHOR_DATE"] = date_str
         env["GIT_COMMITTER_DATE"] = date_str
