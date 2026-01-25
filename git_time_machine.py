@@ -138,7 +138,7 @@ def git_commit_for_each_day(start_date_str, file_to_change):
             sys.exit(1)
 
         # 🕒 delay to avoid Git race
-        time.sleep(random.randint(5, 10))
+        time.sleep(random.randint(1, 2))
 
         # push only on today
         if current_date == today:
