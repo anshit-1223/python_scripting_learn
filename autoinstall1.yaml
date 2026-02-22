@@ -1,0 +1,37 @@
+#cloud-config
+autoinstall:
+  version: 1
+  reboot: true
+
+  storage:
+    layout:
+      name: direct
+    match:
+      ssd: true
+
+  identity:
+      hostname: wadmin
+      username: wadmin
+      password: "$6$bfqKYA9R59qdo3gx$pdqpYdYqygIgwakP8bc1C9Pwy4E/QodaNMUk37HrnLPPg4OqYiMp7M3fOfwBj67aiuajksJyhGdsgNWix.ju61"
+
+  locale: en_US.UTF-8
+
+  keyboard:
+    layout: us
+
+  timezone: Asia/Kolkata
+
+  ssh:
+    install-server: true
+    allow-pw: true
+
+  source:
+    id: ubuntu-desktop
+
+  packages:
+      - curl
+      - vim
+      - net-tools
+
+#  late-commands:
+#    - curtin in-target --target=/target -- systemctl reboot
