@@ -2,8 +2,8 @@
 autoinstall:
   version: 1
   reboot: true
-
-  interactive-sections:
+## This block is used to get the things you want to set in GUI
+  interactive-sections:    
     - storage
 
   identity:
